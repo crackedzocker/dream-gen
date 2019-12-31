@@ -1,0 +1,275 @@
+Fehler im Client: 
+Erster Fehler:
+(Der Inhalt ist der, aus den Details im Fehlerfenster)
+Informationen über das Aufrufen von JIT-Debuggen
+anstelle dieses Dialogfelds finden Sie am Ende dieser Meldung.
+
+************** Ausnahmetext **************
+System.Security.Cryptography.CryptographicException: Zugriff verweigert
+
+   bei System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   bei System.Security.Cryptography.Utils._CreateCSP(CspParameters param, Boolean randomKeyContainer, SafeProvHandle& hProv)
+   bei System.Security.Cryptography.Utils.CreateProvHandle(CspParameters parameters, Boolean randomKeyContainer)
+   bei System.Security.Cryptography.Utils.GetKeyPairHelper(CspAlgorithmType keyType, CspParameters parameters, Boolean randomKeyContainer, Int32 dwKeySize, SafeProvHandle& safeProvHandle, SafeKeyHandle& safeKeyHandle)
+   bei System.Security.Cryptography.RSACryptoServiceProvider.GetKeyPair()
+   bei System.Security.Cryptography.RSACryptoServiceProvider..ctor(Int32 dwKeySize, CspParameters parameters, Boolean useDefaultKeySize)
+   bei License.utils.Generate(Int32 Type)
+   bei License.LicenseGenerator.Create(Boolean SendEmail, String UserName, String UserMail, String ProgramName, String ProgramMail, String MailSmtp, String MailPassword, String SMTPPort)
+   bei AltGenerator.Form5.
+(Object , EventArgs )
+   bei System.Windows.Forms.Form.OnLoad(EventArgs e)
+   bei System.Windows.Forms.Form.OnCreateControl()
+   bei System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   bei System.Windows.Forms.Control.CreateControl()
+   bei System.Windows.Forms.Control.WmShowWindow(Message& m)
+   bei System.Windows.Forms.Control.WndProc(Message& m)
+   bei System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   bei System.Windows.Forms.Form.WmShowWindow(Message& m)
+   bei System.Windows.Forms.Form.WndProc(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+************** Geladene Assemblys **************
+mscorlib
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.4075.0 built by: NET48REL1LAST.
+    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll.
+----------------------------------------
+Dream-Gen
+    Assembly-Version: 1.0.0.0.
+    Win32-Version: 1.0.0.0.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/Dream-Gen.exe.
+----------------------------------------
+System
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.4001.0 built by: NET48REL1LAST_C.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll.
+----------------------------------------
+Dream-Gen&
+    Assembly-Version: 1.0.0.0.
+    Win32-Version: 1.0.0.0.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/Dream-Gen.exe.
+----------------------------------------
+Microsoft.VisualBasic
+    Assembly-Version: 10.0.0.0.
+    Win32-Version: 14.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Microsoft.VisualBasic/v4.0_10.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.dll.
+----------------------------------------
+System.Core
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.4075.0 built by: NET48REL1LAST.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll.
+----------------------------------------
+System.Windows.Forms
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.4042.0 built by: NET48REL1LAST_C.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll.
+----------------------------------------
+System.Drawing
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll.
+----------------------------------------
+System.Configuration
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll.
+----------------------------------------
+System.Xml
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll.
+----------------------------------------
+System.Runtime.Remoting
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Remoting/v4.0_4.0.0.0__b77a5c561934e089/System.Runtime.Remoting.dll.
+----------------------------------------
+Guna.UI
+    Assembly-Version: 1.8.0.0.
+    Win32-Version: 1.8.0.0.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/Guna.UI.DLL.
+----------------------------------------
+Guna.UI&
+    Assembly-Version: 1.0.0.0.
+    Win32-Version: 1.8.0.0.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/Guna.UI.dll.
+----------------------------------------
+mscorlib.resources
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/mscorlib.resources/v4.0_4.0.0.0_de_b77a5c561934e089/mscorlib.resources.dll.
+----------------------------------------
+LicenseGenerator
+    Assembly-Version: 1.1.5.6.
+    Win32-Version: 1.1.5.6.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/LicenseGenerator.DLL.
+----------------------------------------
+System.Management
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Management/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Management.dll.
+----------------------------------------
+System.Windows.Forms.resources
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms.resources/v4.0_4.0.0.0_de_b77a5c561934e089/System.Windows.Forms.resources.dll.
+----------------------------------------
+
+************** JIT-Debuggen **************
+Um das JIT-Debuggen (Just-In-Time) zu aktivieren, muss in der
+Konfigurationsdatei der Anwendung oder des Computers
+(machine.config) der jitDebugging-Wert im Abschnitt system.windows.forms festgelegt werden.
+Die Anwendung muss mit aktiviertem Debuggen kompiliert werden.
+
+Zum Beispiel:
+
+<configuration>
+    <system.windows.forms jitDebugging="true" />
+</configuration>
+
+Wenn das JIT-Debuggen aktiviert ist, werden alle nicht behandelten
+Ausnahmen an den JIT-Debugger gesendet, der auf dem
+Computer registriert ist, und nicht in diesem Dialogfeld behandelt.
+
+Zweiter Fehler: 
+Informationen über das Aufrufen von JIT-Debuggen
+anstelle dieses Dialogfelds finden Sie am Ende dieser Meldung.
+
+************** Ausnahmetext **************
+System.Security.Cryptography.CryptographicException: Zugriff verweigert
+
+   bei System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   bei System.Security.Cryptography.Utils._CreateCSP(CspParameters param, Boolean randomKeyContainer, SafeProvHandle& hProv)
+   bei System.Security.Cryptography.Utils.CreateProvHandle(CspParameters parameters, Boolean randomKeyContainer)
+   bei System.Security.Cryptography.Utils.GetKeyPairHelper(CspAlgorithmType keyType, CspParameters parameters, Boolean randomKeyContainer, Int32 dwKeySize, SafeProvHandle& safeProvHandle, SafeKeyHandle& safeKeyHandle)
+   bei System.Security.Cryptography.RSACryptoServiceProvider.GetKeyPair()
+   bei System.Security.Cryptography.RSACryptoServiceProvider..ctor(Int32 dwKeySize, CspParameters parameters, Boolean useDefaultKeySize)
+   bei License.utils.Generate(Int32 Type)
+   bei License.LicenseGenerator.Create(Boolean SendEmail, String UserName, String UserMail, String ProgramName, String ProgramMail, String MailSmtp, String MailPassword, String SMTPPort)
+   bei AltGenerator.Form5.
+(Object , EventArgs )
+   bei System.Windows.Forms.Form.OnLoad(EventArgs e)
+   bei System.Windows.Forms.Form.OnCreateControl()
+   bei System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   bei System.Windows.Forms.Control.CreateControl()
+   bei System.Windows.Forms.Control.WmShowWindow(Message& m)
+   bei System.Windows.Forms.Control.WndProc(Message& m)
+   bei System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   bei System.Windows.Forms.Form.WmShowWindow(Message& m)
+   bei System.Windows.Forms.Form.WndProc(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+************** Geladene Assemblys **************
+mscorlib
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.4075.0 built by: NET48REL1LAST.
+    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll.
+----------------------------------------
+Dream-Gen
+    Assembly-Version: 1.0.0.0.
+    Win32-Version: 1.0.0.0.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/Dream-Gen.exe.
+----------------------------------------
+System
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.4001.0 built by: NET48REL1LAST_C.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll.
+----------------------------------------
+Dream-Gen&
+    Assembly-Version: 1.0.0.0.
+    Win32-Version: 1.0.0.0.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/Dream-Gen.exe.
+----------------------------------------
+Microsoft.VisualBasic
+    Assembly-Version: 10.0.0.0.
+    Win32-Version: 14.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Microsoft.VisualBasic/v4.0_10.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.dll.
+----------------------------------------
+System.Core
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.4075.0 built by: NET48REL1LAST.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll.
+----------------------------------------
+System.Windows.Forms
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.4042.0 built by: NET48REL1LAST_C.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll.
+----------------------------------------
+System.Drawing
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll.
+----------------------------------------
+System.Configuration
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll.
+----------------------------------------
+System.Xml
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll.
+----------------------------------------
+System.Runtime.Remoting
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Remoting/v4.0_4.0.0.0__b77a5c561934e089/System.Runtime.Remoting.dll.
+----------------------------------------
+Guna.UI
+    Assembly-Version: 1.8.0.0.
+    Win32-Version: 1.8.0.0.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/Guna.UI.DLL.
+----------------------------------------
+Guna.UI&
+    Assembly-Version: 1.0.0.0.
+    Win32-Version: 1.8.0.0.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/Guna.UI.dll.
+----------------------------------------
+mscorlib.resources
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/mscorlib.resources/v4.0_4.0.0.0_de_b77a5c561934e089/mscorlib.resources.dll.
+----------------------------------------
+LicenseGenerator
+    Assembly-Version: 1.1.5.6.
+    Win32-Version: 1.1.5.6.
+    CodeBase: file:///C:/Users/{user}/Downloads/Dream-Gen/Dream-Gen/LicenseGenerator.DLL.
+----------------------------------------
+System.Management
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Management/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Management.dll.
+----------------------------------------
+System.Windows.Forms.resources
+    Assembly-Version: 4.0.0.0.
+    Win32-Version: 4.8.3752.0 built by: NET48REL1.
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms.resources/v4.0_4.0.0.0_de_b77a5c561934e089/System.Windows.Forms.resources.dll.
+----------------------------------------
+
+************** JIT-Debuggen **************
+Um das JIT-Debuggen (Just-In-Time) zu aktivieren, muss in der
+Konfigurationsdatei der Anwendung oder des Computers
+(machine.config) der jitDebugging-Wert im Abschnitt system.windows.forms festgelegt werden.
+Die Anwendung muss mit aktiviertem Debuggen kompiliert werden.
+
+Zum Beispiel:
+
+<configuration>
+    <system.windows.forms jitDebugging="true" />
+</configuration>
+
+Wenn das JIT-Debuggen aktiviert ist, werden alle nicht behandelten
+Ausnahmen an den JIT-Debugger gesendet, der auf dem
+Computer registriert ist, und nicht in diesem Dialogfeld behandelt.
+
+
+
+Bei mir ist es so, dass der Client nach diesen Zwei Fehler Codes geht, aber ich finde es trotzdem seltsam.
+Kannste das bitte Fixen
+Crackedzocker
